@@ -1,0 +1,387 @@
+[0.000000] (-) TimerEvent: {}
+[0.000324] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.000345] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.003553] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.003872] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[0.004219] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/danivm/TR-Autonomy-0.5-Daniel-Ticau/build/turtlesim', '--', '-j5', '-l5'], 'cwd': '/home/danivm/TR-Autonomy-0.5-Daniel-Ticau/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'danivm'), ('SSH_CLIENT', '10.0.2.2 55847 22'), ('ZED_ENVIRONMENT', 'worktree-shell'), ('XDG_SESSION_TYPE', 'tty'), ('ROS_APT_SOURCE_VERSION', '1.2.0'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/danivm'), ('OLDPWD', '/home/danivm'), ('TERM_PROGRAM_VERSION', '1.17.2+stable.349.c8e44cfa7bda9b2e22c8d6934d78969352e7f61a'), ('SSH_TTY', '/dev/pts/0'), ('ZED_TERM', 'true'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'danivm'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'zed'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/danivm/TR-Autonomy-0.5-Daniel-Ticau/build/turtlesim'), ('SSH_CONNECTION', '10.0.2.2 55847 10.0.2.15 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.025975] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_generator_c\x1b[0m\n'}
+[0.027228] (turtlesim) StdoutLine: {'line': b'[  1%] Built target turtlesim__cpp\n'}
+[0.028566] (turtlesim) StdoutLine: {'line': b'[  2%] Built target turtlesim__rs\n'}
+[0.030966] (turtlesim) StdoutLine: {'line': b'[ 12%] Built target turtlesim__rosidl_generator_c\n'}
+[0.033475] (turtlesim) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_turtlesim\n'}
+[0.035881] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.036637] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.037065] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.038016] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.045380] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.046084] (turtlesim) StdoutLine: {'line': b'[ 28%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[0.046187] (turtlesim) StdoutLine: {'line': b'[ 32%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[0.047968] (turtlesim) StdoutLine: {'line': b'[ 42%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[0.052264] (turtlesim) StdoutLine: {'line': b'[ 52%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[0.052815] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_c\x1b[0m\n'}
+[0.054624] (turtlesim) StdoutLine: {'line': b'[ 62%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[0.055461] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim_node\x1b[0m\n'}
+[0.060899] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_teleop_key\x1b[0m\n'}
+[0.065206] (turtlesim) StdoutLine: {'line': b'[ 72%] Built target turtlesim__rosidl_typesupport_c\n'}
+[0.065722] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target draw_square\x1b[0m\n'}
+[0.067851] (turtlesim) StdoutLine: {'line': b'[ 78%] Built target turtlesim_node\n'}
+[0.070337] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mimic\x1b[0m\n'}
+[0.071212] (turtlesim) StdoutLine: {'line': b'[ 80%] Built target turtle_teleop_key\n'}
+[0.074330] (turtlesim) StdoutLine: {'line': b'[ 82%] Built target draw_square\n'}
+[0.074512] (turtlesim) StdoutLine: {'line': b'[ 82%] Built target turtlesim\n'}
+[0.076663] (turtlesim) StdoutLine: {'line': b'[ 84%] Built target mimic\n'}
+[0.081212] (turtlesim) StdoutLine: {'line': b'[ 85%] Built target turtlesim__py\n'}
+[0.085549] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_generator_py\x1b[0m\n'}
+[0.092153] (turtlesim) StdoutLine: {'line': b'[ 94%] Built target turtlesim__rosidl_generator_py\n'}
+[0.095820] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[0.095895] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[0.095918] (turtlesim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[0.099861] (-) TimerEvent: {}
+[0.101383] (turtlesim) StdoutLine: {'line': b'[ 96%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.101685] (turtlesim) StdoutLine: {'line': b'[ 98%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[0.102538] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[0.130323] (turtlesim) StdoutLine: {'line': b'running egg_info\n'}
+[0.130585] (turtlesim) StdoutLine: {'line': b'writing turtlesim.egg-info/PKG-INFO\n'}
+[0.130870] (turtlesim) StdoutLine: {'line': b'writing dependency_links to turtlesim.egg-info/dependency_links.txt\n'}
+[0.130920] (turtlesim) StdoutLine: {'line': b'writing top-level names to turtlesim.egg-info/top_level.txt\n'}
+[0.132455] (turtlesim) StdoutLine: {'line': b"reading manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[0.132782] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[0.142450] (turtlesim) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_turtlesim_egg\n'}
+[0.146647] (turtlesim) CommandEnded: {'returncode': 0}
+[0.147098] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[0.149829] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/danivm/TR-Autonomy-0.5-Daniel-Ticau/build/turtlesim'], 'cwd': '/home/danivm/TR-Autonomy-0.5-Daniel-Ticau/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'danivm'), ('SSH_CLIENT', '10.0.2.2 55847 22'), ('ZED_ENVIRONMENT', 'worktree-shell'), ('XDG_SESSION_TYPE', 'tty'), ('ROS_APT_SOURCE_VERSION', '1.2.0'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/danivm'), ('OLDPWD', '/home/danivm'), ('TERM_PROGRAM_VERSION', '1.17.2+stable.349.c8e44cfa7bda9b2e22c8d6934d78969352e7f61a'), ('SSH_TTY', '/dev/pts/0'), ('ZED_TERM', 'true'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'danivm'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'zed'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/danivm/TR-Autonomy-0.5-Daniel-Ticau/build/turtlesim'), ('SSH_CONNECTION', '10.0.2.2 55847 10.0.2.15 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.152181] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.152307] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[0.152437] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim\n'}
+[0.152508] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[0.152539] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[0.152567] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[0.152591] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[0.152649] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[0.152678] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[0.152695] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h\n'}
+[0.152712] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[0.152731] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h\n'}
+[0.152747] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h\n'}
+[0.152762] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[0.152805] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[0.152824] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[0.152841] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h\n'}
+[0.152856] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h\n'}
+[0.152872] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[0.152888] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h\n'}
+[0.152903] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c\n'}
+[0.152920] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h\n'}
+[0.152940] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[0.152963] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h\n'}
+[0.152979] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[0.152995] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h\n'}
+[0.153010] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[0.153026] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c\n'}
+[0.153041] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c\n'}
+[0.153163] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h\n'}
+[0.153194] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[0.153267] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[0.153295] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h\n'}
+[0.153311] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[0.153332] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h\n'}
+[0.153348] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h\n'}
+[0.153363] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h\n'}
+[0.153378] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[0.153399] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg/color.h\n'}
+[0.153415] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h\n'}
+[0.153463] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[0.153509] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h\n'}
+[0.153533] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h\n'}
+[0.153550] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h\n'}
+[0.153566] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c\n'}
+[0.153582] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h\n'}
+[0.153599] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h\n'}
+[0.153615] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c\n'}
+[0.153630] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h\n'}
+[0.153647] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.153663] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[0.153680] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[0.153702] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[0.153717] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim\n'}
+[0.153733] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[0.153758] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[0.153773] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[0.153789] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[0.153805] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[0.153821] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[0.153836] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[0.153852] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[0.153869] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[0.153912] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[0.153929] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[0.153945] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[0.153961] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[0.153983] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[0.154001] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.154095] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[0.154124] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim\n'}
+[0.154140] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[0.154156] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[0.154172] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.hpp\n'}
+[0.154190] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[0.154206] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[0.154221] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[0.154240] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp\n'}
+[0.154297] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[0.154362] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp\n'}
+[0.154434] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp\n'}
+[0.154456] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp\n'}
+[0.154480] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[0.154498] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[0.154551] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.hpp\n'}
+[0.154575] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[0.154592] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.hpp\n'}
+[0.154616] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[0.154632] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp\n'}
+[0.154648] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[0.154667] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp\n'}
+[0.154690] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[0.154705] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[0.154729] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[0.154750] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.hpp\n'}
+[0.154766] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.hpp\n'}
+[0.154782] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[0.154797] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[0.154812] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.hpp\n'}
+[0.154828] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp\n'}
+[0.154843] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[0.154859] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[0.154874] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[0.154890] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp\n'}
+[0.154908] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp\n'}
+[0.154928] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[0.154951] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp\n'}
+[0.154966] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[0.154987] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.hpp\n'}
+[0.155002] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp\n'}
+[0.155017] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp\n'}
+[0.155032] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp\n'}
+[0.155048] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp\n'}
+[0.155064] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp\n'}
+[0.155079] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp\n'}
+[0.155094] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.hpp\n'}
+[0.155112] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp\n'}
+[0.155132] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.155147] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim\n'}
+[0.155163] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[0.155217] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[0.155408] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps\n'}
+[0.155533] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.155573] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[0.155610] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[0.155657] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.155702] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.155718] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps\n'}
+[0.155739] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.155755] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.155776] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.155843] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[0.155914] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.155969] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[0.155991] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.156017] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps\n'}
+[0.156042] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.156082] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.156107] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim\n'}
+[0.156130] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[0.156146] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[0.156162] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[0.156227] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[0.156256] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[0.156307] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[0.156413] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[0.156454] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c\n'}
+[0.156482] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[0.156499] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[0.156514] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[0.156529] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c\n'}
+[0.156544] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[0.156560] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[0.156576] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[0.156591] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[0.156606] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[0.156621] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.156637] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[0.156652] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[0.156689] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[0.156737] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c\n'}
+[0.156762] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c\n'}
+[0.156778] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[0.156798] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[0.156820] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim\n'}
+[0.156840] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[0.156856] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[0.156876] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.156891] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[0.156911] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[0.156926] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[0.156945] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[0.156960] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[0.156979] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[0.156995] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.157016] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.157035] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[0.157054] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[0.157070] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.157090] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.157110] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.157130] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[0.157151] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[0.157167] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[0.157185] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.157201] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp\n'}
+[0.157220] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.157240] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[0.157255] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[0.157275] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[0.157295] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[0.157316] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.3-py3.10.egg-info\n'}
+[0.157331] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.3-py3.10.egg-info/PKG-INFO\n'}
+[0.157352] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.3-py3.10.egg-info/top_level.txt\n'}
+[0.157380] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.3-py3.10.egg-info/dependency_links.txt\n'}
+[0.157401] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.3-py3.10.egg-info/SOURCES.txt\n'}
+[0.157422] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim\n'}
+[0.157442] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action\n'}
+[0.157462] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py\n'}
+[0.157478] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[0.157501] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py\n'}
+[0.157521] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.157551] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/libturtlesim__rosidl_generator_py.so\n'}
+[0.157567] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.157587] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.157608] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv\n'}
+[0.157628] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py\n'}
+[0.157649] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen_s.c\n'}
+[0.157664] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[0.157684] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[0.157706] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn_s.c\n'}
+[0.157727] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py\n'}
+[0.157742] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill_s.c\n'}
+[0.157762] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py\n'}
+[0.157783] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py\n'}
+[0.157832] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[0.157856] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py\n'}
+[0.157878] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg\n'}
+[0.157899] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py\n'}
+[0.157921] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color_s.c\n'}
+[0.157942] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose_s.c\n'}
+[0.157965] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py\n'}
+[0.157989] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py\n'}
+[0.158005] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.158031] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.158052] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c\n'}
+[0.158074] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py\n'}
+[0.166863] (turtlesim) StdoutLine: {'line': b"Listing '/home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim'...\n"}
+[0.166902] (turtlesim) StdoutLine: {'line': b"Listing '/home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action'...\n"}
+[0.166927] (turtlesim) StdoutLine: {'line': b"Listing '/home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg'...\n"}
+[0.166949] (turtlesim) StdoutLine: {'line': b"Listing '/home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv'...\n"}
+[0.168786] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.168920] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.169063] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.169214] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so\n'}
+[0.169367] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/ament_index/resource_index/rust_packages/turtlesim\n'}
+[0.169488] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/rust\n'}
+[0.169560] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/rust/Cargo.toml\n'}
+[0.169608] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/rust/build.rs\n'}
+[0.169624] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/rust/src\n'}
+[0.169648] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/rust/src/action\n'}
+[0.169663] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/rust/src/action/rmw.rs\n'}
+[0.169820] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/rust/src/action.rs\n'}
+[0.169917] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/rust/src/lib.rs\n'}
+[0.170023] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/rust/src/msg.rs\n'}
+[0.170112] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/rust/src/srv.rs\n'}
+[0.170133] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/rust/src/srv\n'}
+[0.170182] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/rust/src/srv/rmw.rs\n'}
+[0.170234] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/rust/src/msg\n'}
+[0.170251] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/rust/src/msg/rmw.rs\n'}
+[0.170266] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[0.170289] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[0.170367] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[0.170421] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[0.170448] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[0.170465] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[0.170500] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[0.170516] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[0.170537] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[0.170559] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[0.170580] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[0.170597] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[0.170733] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[0.170810] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[0.170830] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[0.170864] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[0.170881] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[0.170946] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[0.170983] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[0.171010] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[0.171028] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[0.171109] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[0.171126] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[0.171153] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[0.171182] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[0.171197] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[0.171225] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[0.171251] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[0.171276] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/lib/turtlesim/draw_square\n'}
+[0.171342] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/lib/turtlesim/mimic\n'}
+[0.171381] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/images\n'}
+[0.171464] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[0.171549] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[0.171663] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[0.171687] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/images/humble.png\n'}
+[0.171702] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[0.171718] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[0.171749] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/images/galactic.png\n'}
+[0.171899] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[0.171967] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/images/rolling.png\n'}
+[0.172008] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/launch\n'}
+[0.172209] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[0.172245] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[0.172263] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[0.172305] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[0.172328] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[0.172359] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[0.172375] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[0.172392] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[0.172415] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[0.172437] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[0.172455] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[0.172471] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/package.dsv\n'}
+[0.172513] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[0.172535] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake\n'}
+[0.172564] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.172580] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.172601] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.172648] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake\n'}
+[0.172670] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.172692] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.172714] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.172752] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.172770] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[0.172827] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.172862] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.172895] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.172910] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[0.172966] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.173015] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport.cmake\n'}
+[0.173040] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.173062] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[0.173142] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.173175] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.173191] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.173214] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.173564] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.173673] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.173773] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[0.173928] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[0.173971] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[0.174089] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/turtlesim/share/turtlesim/package.xml\n'}
+[0.174362] (turtlesim) CommandEnded: {'returncode': 0}
+[0.183819] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[0.184031] (-) EventReactorShutdown: {}

@@ -1,0 +1,1 @@
+/home/danivm/TR-Autonomy-0.5-Daniel-Ticau/build/turtlesim/rosidl_generator_c/turtlesim/msg/detail/pose__struct.h

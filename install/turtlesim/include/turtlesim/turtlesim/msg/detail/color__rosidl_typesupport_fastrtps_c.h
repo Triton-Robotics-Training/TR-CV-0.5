@@ -1,0 +1,1 @@
+/home/danivm/TR-Autonomy-0.5-Daniel-Ticau/build/turtlesim/rosidl_typesupport_fastrtps_c/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h
