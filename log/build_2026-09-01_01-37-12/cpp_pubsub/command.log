@@ -1,0 +1,2 @@
+Invoking command in '/home/danivm/TR-Autonomy-0.5-Daniel-Ticau/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/cpp_pubsub
+Invoked command in '/home/danivm/TR-Autonomy-0.5-Daniel-Ticau/build/cpp_pubsub' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/danivm/TR-Autonomy-0.5-Daniel-Ticau/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/danivm/TR-Autonomy-0.5-Daniel-Ticau/install/cpp_pubsub
